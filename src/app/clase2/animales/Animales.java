@@ -8,6 +8,6 @@ package app.clase2.animales;
  *
  * @author alumno
  */
-public class aminales {
+public class Animales {
     
 }
