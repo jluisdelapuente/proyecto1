@@ -10,6 +10,12 @@ public class AppPersona {
         System.out.println("Nombres: "+jose.getNombre());
         System.out.println("Apellidos: "+jose.getApellidos());
         System.out.println("Edad: "+jose.getEdad()+" Anos");
-                
+     
+        Persona luis = new Persona();
+        luis.setNombresApellidos("Marisol", "Garcia");
+        System.out.println("nombre completo "+ luis.getNombre() + " " + luis.getApellidos());
+        
     }
-}
+                
+        
+    }

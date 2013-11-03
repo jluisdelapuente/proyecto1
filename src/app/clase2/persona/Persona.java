@@ -14,13 +14,21 @@ public class Persona {
     public String apellidos;
     public int edad;
 
- 
-            
     public Persona(String nombre, String apellidos, int edad) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
     }
+
+    public Persona() {
+    }
+
+    public void setNombresApellidos(String nombre, String apellidos) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+    }
+    
+    
 
     public String getNombre() {
         return nombre;
@@ -45,7 +53,4 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
-    
-    
 }
