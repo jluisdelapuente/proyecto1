@@ -7,10 +7,16 @@ public abstract class Animal {
     private double peso;
     private int edad;
 
+    /*
     public void hacerRuido() {
 
     }
-
+*/
+    
+    public abstract void hacerRuido();
+    public abstract void comer();
+    
+    
     public String getNombre() {
         return nombre;
     }

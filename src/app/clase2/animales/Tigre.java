@@ -14,4 +14,9 @@ public class Tigre extends Animal {
     public void hacerRuido(Boolean molestar) {
         System.out.println("GRUHUSAHUSD");
     }
+
+    @Override
+    public void comer() {
+        System.out.println("Carne");
+    }
 }
