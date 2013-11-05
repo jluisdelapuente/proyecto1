@@ -5,7 +5,7 @@ public class Estatico {
     static int contador;
 
     public Estatico() {
-        ++contador;
+        contador++;
     }
 
     public static double dolaraEuro(double Dolar) {

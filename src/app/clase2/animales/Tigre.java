@@ -7,6 +7,7 @@ public class Tigre extends Animal {
         this.setEdad(edad);
     }
 
+    @Override
     public void hacerRuido() {
         System.out.println("GRRRRR");
     }

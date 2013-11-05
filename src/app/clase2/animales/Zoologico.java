@@ -13,7 +13,7 @@ public class Zoologico {
         benito.hacerRuido();
         benito.comer();
 
-        Vicuña charli = new Vicuña("Richar", 30);
+        Vicuña charli = new Vicuña("charli", 30);
         charli.hacerRuido();
         charli.comer();
         

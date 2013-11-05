@@ -2,12 +2,13 @@ package app.clase2.estatico;
 
 public class AppEstatico {
 
-    public static void main(String[] args) {
-        AppEstatico.runAtributoEstatico();
-        AppEstatico.runMetodoEstatico();
+    public static void main(String[] args) {    
+        
+        AppEstatico.AtributoEstatico();
+        AppEstatico.MetodoEstatico();
     }
         
-        public static void runAtributoEstatico {
+        public static void AtributoEstatico () {
         System.out.println(Estatico.contador);
         Estatico estuUn = new Estatico();
         Estatico estuDo = new Estatico();
@@ -15,7 +16,7 @@ public class AppEstatico {
         System.out.println(Estatico.contador);
     }
         
-        public static void runMetodoEstatico {
+        public static void MetodoEstatico (){
          double euro = Estatico.dolaraEuro(10d);
          System.out.println(euro);
     }
