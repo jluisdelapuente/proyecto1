@@ -1,32 +1,20 @@
 package App.clase2.animales;
-
+/*
 public class Vicuña extends Animal {
-
-    public Vicuña(String nombre, int edad) {
-
+    
+    public Vicuña(String nombre, int edad){
         this.setNombre(nombre);
         this.setEdad(edad);
     }
 
+    @Override
     public void hacerRuido() {
-        System.out.println("GRRRRRRRRRRRRR");
+        System.out.println("zzzzzzzzzZZZzzZZZ");
     }
 
-    public void hacerRuido(Boolean molestar) {
-        System.out.println("ibghrtnhtriontyionmtyionjyotnj");
-    }
-
+    @Override
     public void comer() {
-        System.out.println("Carne");
+        System.out.println("pasto");
     }
-
-    private void setNombre(String nombre) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-        //To change body of generated methods, choose Tools | Templates.
-    }
-
-    private void setEdad(int edad) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-        //To change body of generated methods, choose Tools | Templates.
-    }
-}
+  
+}*/

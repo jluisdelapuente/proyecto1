@@ -12,10 +12,10 @@ public class Zoologico {
         Gato benito = new Gato("Fy", 2);
         benito.hacerRuido();
         benito.comer();
-
+/*
         Vicuña charli = new Vicuña("charli", 30);
         charli.hacerRuido();
         charli.comer();
-        
+  */      
     }
 }
