@@ -15,12 +15,12 @@ public class Socio {
         this.nombre = nombre;
         this.direccion = direccion;
     }
-
+/*
     Socio(int i, String david, String tecsup) {
         throw new UnsupportedOperationException("Not supported yet."); 
         //To change body of generated methods, choose Tools | Templates.
     }
-
+*/
     @Override
     public String toString() {
         String cadena = "Codigo : " + this.codigo;
