@@ -15,7 +15,8 @@ public class Formato {
         //Formato.modedaFormato();
         //Formato.GregorianCalendar();
         //Formato.SimpeDateFormat();
-        Formato.CompararFechas();
+        Formato.SimpeDateFormato();
+        //Formato.CompararFechas();
 
 
     }
@@ -126,25 +127,35 @@ public class Formato {
         Date now = new Date();
 
         System.out.println(df.format(now));
-
-
+       
     }
 
     public static void CompararFechas() {
 
-        Calendar c1 = new GregorianCalendar(2011, 9, 1);
-        Date d1 = c1.getTime();
+        Calendar c1 = new GregorianCalendar(2011, 9, 3);
+        Date fecha1 = c1.getTime();
         
         Calendar c2 = new GregorianCalendar(2011, 9, 3);
-        Date d2 = c2.getTime();
+        Date fecha2 = c2.getTime();
        
-        if (d1.after(d2)) {
-            System.out.println("d1 es después que d2");
+        if (fecha1.after(fecha2)) {
+            System.out.println("Fecha1 es después que Fecha2");
         }
         
-        if (d1.before(d2)) {
-            System.out.println("d1 es antes que d2");
+        if (fecha1.before(fecha2)) {
+            System.out.println("Fecha1 es antes que Fecha2");
         }
 
     }
+    
+    public static void SimpeDateFormato() {
+
+        DateFormat df = new SimpleDateFormat("D");
+
+        Date now = new Date();
+
+        System.out.println(df.format(now));
+    
+}
+    
 }
