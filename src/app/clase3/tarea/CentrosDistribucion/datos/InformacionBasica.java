@@ -1,6 +1,6 @@
 package app.clase3.tarea.CentrosDistribucion.datos;
 
-public abstract class Informacion {
+public abstract class InformacionBasica {
 
     private String código;
     private int RUC;
