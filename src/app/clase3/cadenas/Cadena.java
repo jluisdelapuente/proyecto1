@@ -1,7 +1,6 @@
  
 package App.clase3.cadenas;
 
-
 public class Cadena {
     
     public static void main(String[] args) {
@@ -55,9 +54,5 @@ public class Cadena {
      }
      
      public static void buffer2(){
-         }
-     
-     
-     
-     
+         }     
 }
