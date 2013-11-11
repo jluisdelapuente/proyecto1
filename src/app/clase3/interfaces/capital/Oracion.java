@@ -1,26 +1,24 @@
 
 package app.clase3.interfaces.capital;
 
-
 public class Oracion implements Capitalizable{
-   
+
     private String texto;
-    
-    
 
     public Oracion(String texto) {
         this.texto = texto;
     }
 
-    @Override
+   @Override
     public String cambiaMayuscula() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return texto.toUpperCase();
     }
 
     @Override
     public String cambiaMinuscula() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+        return texto.toLowerCase();
     }
     
     
 }
+

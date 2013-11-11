@@ -4,8 +4,7 @@ public class BicicletaCarrera extends Bicicleta {
 
     private String materialAro;
 
-    private void correr() {
-        System.out.println("Velocidad al Máximo");
+    public void correr() {
+        System.out.println("Velocidad al máximo");
     }
-    
 }

@@ -1,16 +1,13 @@
 package app.clase2.aula.aritmetico;
 
 public class Operaciones {
-    
-
 
     public double sumar(double a, double b) {
         double resultado = a + b;
         return resultado;
-               
-      }
+    }
 
-    public int getMax(int a, int b){
+    public int getMax(int a, int b) {
         int mayor = a;
         if (a > b) {
             mayor = a;
@@ -33,5 +30,9 @@ public class Operaciones {
         }
         return mayor;
     }
+    
+    public int getMax(String mensaje){
+        return 0;
+    }
+    
 }
-

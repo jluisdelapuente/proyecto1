@@ -17,7 +17,7 @@ public class Bicicleta {
         System.out.println("Frenando");
     }
 
-    public void cambiarVelocidad(int engranajeActual) {
+   public void cambiarVelocidad(int engranajeActual) {
         this.engranajeActual = engranajeActual;
         System.out.println("Cambiando velocidad a " + engranajeActual);
     }

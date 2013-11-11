@@ -5,11 +5,11 @@ public class Estatico {
     static int contador;
 
     public Estatico() {
-        contador++;
+        ++contador;
     }
 
-    public static double dolaraEuro(double Dolar) {
-        double euro = Dolar * 0.81559;
+    public static double dolaraEuro(double dolar) {
+        double euro = dolar * 0.81559;
         return euro;
     }
 }

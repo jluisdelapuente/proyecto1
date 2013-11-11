@@ -1,15 +1,18 @@
+
 package app.clase3.interfaces.posicion;
 
-public class Auto implements Position {
-
+public class Auto implements Position{
+    
     private int numeroPuertas;
     private String color;
+    
     private double longitud;
     private double latitud;
 
-    public Auto(double Longitud, double latitud) {
+    public Auto(double longitud, double latitud) {
         this.longitud = longitud;
         this.latitud = latitud;
+        
     }
 
     public int getNumeroPuertas() {
@@ -31,11 +34,12 @@ public class Auto implements Position {
     @Override
     public double getLongitud() {
         return this.longitud;
-
     }
 
     @Override
     public double getLatitud() {
         return this.latitud;
     }
+
+    
 }

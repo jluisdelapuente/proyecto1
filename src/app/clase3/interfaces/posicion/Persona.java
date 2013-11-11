@@ -7,9 +7,10 @@ public class Persona implements Position {
     private double longitud;
     private double latitud;
 
-    public Persona(double Longitud, double latitud) {
+    public Persona(double longitud, double latitud) {
         this.longitud = longitud;
         this.latitud = latitud;
+
     }
 
     public String getNombre() {
@@ -31,11 +32,10 @@ public class Persona implements Position {
     @Override
     public double getLongitud() {
         return this.longitud;
-
     }
 
     @Override
     public double getLatitud() {
-        return this.longitud;
+        return this.latitud;
     }
 }

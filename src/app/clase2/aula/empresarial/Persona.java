@@ -4,9 +4,12 @@ import java.util.Date;
 
 public class Persona {
 
-    private String nombre;
-    private String paterno;
+    private String nombres;
     private String materno;
+    private String paterno;
     private Date fechaIngreso;
     private int DNI;
+   
+    
+    
 }

@@ -9,11 +9,11 @@ public class Tigre extends Animal {
 
     @Override
     public void hacerRuido() {
-        System.out.println("GRRRRR");
+        System.out.println("GRRRRRRR");
     }
 
     public void hacerRuido(Boolean molestar) {
-        System.out.println("GRUHUSAHUSD");
+        System.out.println("GRUHHASDLKHKASDH");
     }
 
     @Override

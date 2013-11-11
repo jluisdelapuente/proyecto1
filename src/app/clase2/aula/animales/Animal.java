@@ -6,17 +6,12 @@ public abstract class Animal {
     private String color;
     private double peso;
     private int edad;
-
-    /*
-    public void hacerRuido() {
-
-    }
-*/
     
     public abstract void hacerRuido();
+    
     public abstract void comer();
     
-    
+
     public String getNombre() {
         return nombre;
     }
@@ -48,4 +43,7 @@ public abstract class Animal {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+    
+    
+    
 }

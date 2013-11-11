@@ -1,21 +1,29 @@
 
 package app.clase2.aula.persona;
 
+import app.clase2.aula.bicicleta.Bicicleta;
+
 public class AppPersona {
-    
     public static void main(String[] args) {
-        Persona jose = new Persona("Jose", "de la Puente", 42);
-                
+        
+        Persona jose = new Persona("José","EA", 25);
+
         System.out.println("Atributos del Objeto");
-        System.out.println("Nombres: "+jose.getNombre());
+        System.out.println("Nombres: "+jose.getNombres());
         System.out.println("Apellidos: "+jose.getApellidos());
-        System.out.println("Edad: "+jose.getEdad()+" Anos");
-     
+        
         Persona luis = new Persona();
-        luis.setNombresApellidos("Marisol", "Garcia");
-        System.out.println("nombre completo "+ luis.getNombre() + " " + luis.getApellidos());
+        luis.setNombres("Luis");
+        luis.setApellidos("EA");
+        luis.printNombreCompleto();
+        
+        
+        Persona carlo = new Persona();
+        carlo.setNombresApellidos("Carlo", "EA");
+        carlo.printNombreCompleto();
         
     }
-                
-        
-    }
+    
+    
+    
+}

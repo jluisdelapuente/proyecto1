@@ -1,41 +1,36 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package app.clase2.aula.persona;
 
-/**
- *
- * @author alumno
- */
 public class Persona {
 
-    public String nombre;
-    public String apellidos;
+    private String nombres;
+    private String apellidos;
     public int edad;
-
-    public Persona(String nombre, String apellidos, int edad) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.edad = edad;
-    }
 
     public Persona() {
     }
 
-    public void setNombresApellidos(String nombre, String apellidos) {
-        this.nombre = nombre;
+    public Persona(String nombres, String apellidos, int edad) {
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.printNombreCompleto();
+    }
+
+    public void setNombresApellidos(String nombres, String apellidos) {
+        this.nombres = nombres;
         this.apellidos = apellidos;
     }
-    
-    
 
-    public String getNombre() {
-        return nombre;
+    public void printNombreCompleto() {
+        System.out.println(nombres + " " + apellidos);
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getNombres() {
+        return nombres;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
     public String getApellidos() {

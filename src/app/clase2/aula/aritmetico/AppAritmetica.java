@@ -2,17 +2,19 @@
 package app.clase2.aula.aritmetico;
 
 public class AppAritmetica {
+    
     public static void main(String[] args) {
         
-        Operaciones operaciones = new Operaciones();
+        Operaciones operacion = new Operaciones();
+        double suma = operacion.sumar(10, 20);
+        System.out.println(suma);
         
-        double suma = operaciones.sumar(10d, 20d);
-        System.out.println("suma");
         
-        int mayor = operaciones.getMax(10 , 11);
+        int mayor = operacion.getMax(10, 11);
         System.out.println(mayor);
         
-        float mayorFloat = operaciones.getMax(10f, 50f);
+        float mayorFloat = operacion.getMax(10f, 50f);
         System.out.println(mayorFloat);
+        
     }
 }
