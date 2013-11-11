@@ -1,10 +1,14 @@
-
 package app.clase3.tarea.CentrosDistribucion.datos;
 
-public class Contraindicaciones {
-    
+public abstract class Contraindicaciones {
+
     private String noAdministrarEn;
     private String noTomarCon;
+
+    public abstract void Embarazada();
+
+    public abstract void Niño();
+    public abstract void OtroMedicamento();
 
     public String getNoAdministrarEn() {
         return noAdministrarEn;
@@ -21,7 +25,7 @@ public class Contraindicaciones {
     public void setNoTomarCon(String noTomarCon) {
         this.noTomarCon = noTomarCon;
     }
-    
+
     
     
     

@@ -11,6 +11,8 @@ public abstract class posologia {
     private int edad;
     private String Sexo;
 
+    
+    
     public String getModoUso() {
         return modoUso;
     }
