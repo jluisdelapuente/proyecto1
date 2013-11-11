@@ -5,8 +5,6 @@ public abstract class Humano extends SerVivo {
     public void contaminar() {
         System.out.println("contaminando");
     }
-    
-    
-    
+   
     
 }
