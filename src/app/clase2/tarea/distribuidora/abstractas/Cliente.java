@@ -3,14 +3,11 @@ package app.clase2.tarea.distribuidora.abstractas;
 
 public class Cliente {
     
-    private int codigo;
+    private int DNI;
     private String nombre;
+    private int telefono;
     private String direccion;
-
-    public Socio(int codigo, String nombre, String direccion) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.direccion = direccion;
+    private String distrito;
     
-}
+    
 }
