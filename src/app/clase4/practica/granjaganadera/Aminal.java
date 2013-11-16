@@ -3,13 +3,13 @@ package app.clase4.practica.granjaganadera;
 import java.util.Date;
 
 public abstract class Aminal {
- 
-     private String id;
-     private String nombre;
-     private String especie;
-     private String pesoActual;
-     private Date fechaNaciemiento;
-     private String observaciones;
+
+    private String id;
+    private String nombre;
+    private String especie;
+    private String pesoActual;
+    private Date fechaNaciemiento;
+    private String observaciones;
 
     public String getId() {
         return id;
@@ -58,6 +58,4 @@ public abstract class Aminal {
     public void setObservaciones(String observaciones) {
         this.observaciones = observaciones;
     }
-
-    
 }
