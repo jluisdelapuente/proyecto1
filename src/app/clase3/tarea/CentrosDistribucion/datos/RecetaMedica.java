@@ -4,18 +4,27 @@ import java.util.Date;
 
 public abstract class RecetaMedica {
 
-    private String Cliente;
+    private Cliente Cliente; // las clases se pueden usar como tipo
     private Date fechaemision;
     private Date fechavencimiento;
     private int cantidad;
     private String medicamento;
-    private String medico;
+    private Medico  medico;
 
-    public String getCliente() {
+    public RecetaMedica(Cliente Cliente, Date fechaemision, Date fechavencimiento, int cantidad, String medicamento, Medico medico) {
+        this.Cliente = Cliente;
+        this.fechaemision = fechaemision;
+        this.fechavencimiento = fechavencimiento;
+        this.cantidad = cantidad;
+        this.medicamento = medicamento;
+        this.medico = medico;
+    }
+
+    public Cliente getCliente() {
         return Cliente;
     }
 
-    public void setCliente(String Cliente) {
+    public void setCliente(Cliente Cliente) {
         this.Cliente = Cliente;
     }
 
@@ -51,12 +60,14 @@ public abstract class RecetaMedica {
         this.medicamento = medicamento;
     }
 
-    public String getMedico() {
+    public Medico getMedico() {
         return medico;
     }
 
-    public void setMedico(String medico) {
+    public void setMedico(Medico medico) {
         this.medico = medico;
     }
+
+   
 
 }

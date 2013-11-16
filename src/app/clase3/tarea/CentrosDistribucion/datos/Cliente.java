@@ -2,7 +2,7 @@ package app.clase3.tarea.CentrosDistribucion.datos;
 
 import app.clase3.tarea.CentrosDistribucion.distribucion.Distritos;
 
-public abstract class Cliente extends Distritos {
+public abstract class Cliente extends Distritos { //no es neceario la herencia 
 
     private int DNI;
     private String Nombres;
