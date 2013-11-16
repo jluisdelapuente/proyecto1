@@ -67,7 +67,4 @@ public abstract class Alimento {
         this.cantidadNutirnte = cantidadNutirnte;
     }
 
-    
-    
-    
 }

@@ -9,8 +9,8 @@ public abstract class Aminal {
     private String especie;
     private String pesoActual;
     private Date fechaNaciemiento;
-    private String observaciones;
-
+    private String observaciones;    
+    
     public String getId() {
         return id;
     }
