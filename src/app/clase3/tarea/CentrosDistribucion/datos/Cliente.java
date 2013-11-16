@@ -50,6 +50,14 @@ public abstract class Cliente extends Distritos {
         this.Distrito = Distrito;
     }
 
+    public Cliente(int DNI, String Nombres, int Telefono, String Direccion, String Distrito) {
+        this.DNI = DNI;
+        this.Nombres = Nombres;
+        this.Telefono = Telefono;
+        this.Direccion = Direccion;
+        this.Distrito = Distrito;
+    }
+
     
 
 }
