@@ -11,6 +11,8 @@ import app.clase3.universo.interfaces.Politico;
  *
  * @author jose
  */
+public class MelmakianoPolitico extends Melmakiano implements Politico, Guerrero{
+
     @Override
     public void doDiplomacia() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
