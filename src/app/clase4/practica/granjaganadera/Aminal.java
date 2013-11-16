@@ -58,4 +58,15 @@ public abstract class Aminal {
     public void setObservaciones(String observaciones) {
         this.observaciones = observaciones;
     }
+
+    public Aminal(String id, String nombre, String especie, String pesoActual, Date fechaNaciemiento, String observaciones) {
+        this.id = id;
+        this.nombre = nombre;
+        this.especie = especie;
+        this.pesoActual = pesoActual;
+        this.fechaNaciemiento = fechaNaciemiento;
+        this.observaciones = observaciones;
+    }
+    
+    
 }
