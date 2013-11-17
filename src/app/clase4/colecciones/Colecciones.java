@@ -1,6 +1,7 @@
 package App.clase4.colecciones;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -57,11 +58,13 @@ public class Colecciones {
         listado.put("124", luis);
         listado.put("125", jose);
 
-        listado.get("123").printEstudiante();
+        Estudiante estudiante = listado.get("123");
+        System.out.println(estudiante.getApellidos());
 
-        Collections<Estudiante> listadoMap = listado.values();
+        Collection<Estudiante> listadoMap = listado.values();
         for (Estudiante estudiante : listadoMap) {
-            estudiante.prinEstudiante();
+            System.out.println(estudiante.getApellidos());
+
 
         }
     }
