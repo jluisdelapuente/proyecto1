@@ -20,7 +20,5 @@ public class Cuentas {
         this.saldo = saldo - montoRerito;
         return saldo;
 
-
-
     }
 }
