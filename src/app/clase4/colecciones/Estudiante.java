@@ -12,9 +12,7 @@ public class Estudiante implements Comparable<Estudiante> {
         this.nombres = nombres;
         this.apellidos = apellidos;
     }
-    
-    
-    
+   
     @Override
     public int compareTo(Estudiante o) {
         String apellidoExterno = o.getApellidos().toLowerCase();

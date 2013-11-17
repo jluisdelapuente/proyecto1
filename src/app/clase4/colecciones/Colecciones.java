@@ -18,25 +18,25 @@ public class Colecciones {
         Estudiante LUIS = new Estudiante("Benjamin", "Ayasta");
         Estudiante PEDRO = new Estudiante("Carlos", "Lopez");
 // ArrayList
-        List<Estudiante> c = new ArrayList<>();
-        c.add(JUAN);
-        c.add(LUIS);
-        c.add(PEDRO);
-        Collections.sort(c);
-        for (Estudiante e : c) {
+        List<Estudiante> listado = new ArrayList<>();
+        listado.add(JUAN);
+        listado.add(LUIS);
+        listado.add(PEDRO);
+        Collections.sort(listado);
+        for (Estudiante e : listado) {
             System.out.println(e.getNombres() + " " + e.getApellidos());
         }
     }
 
     public static void ejemploLinkedList() {
-        Estudiante e1 = new Estudiante("Alberto", "Zapata");
-        Estudiante e2 = new Estudiante("Benjamin", "Ayasta");
-        Estudiante e3 = new Estudiante("Carlos", "Lopez");
+        Estudiante juan = new Estudiante("Alberto", "Zapata");
+        Estudiante pedro = new Estudiante("Benjamin", "Ayasta");
+        Estudiante luis = new Estudiante("Carlos", "Lopez");
 // LinkedList
         LinkedList<Estudiante> pila = new LinkedList<>();
-        pila.addFirst(e1);
-        pila.addFirst(e2);
-        pila.addFirst(e3);
+        pila.addFirst(juan);
+        pila.addFirst(pedro);
+        pila.addFirst(luis);
         ListIterator<Estudiante> ite = pila.listIterator();
         while (ite.hasNext()) {
             Estudiante e = (Estudiante) pila.poll();
@@ -44,4 +44,8 @@ public class Colecciones {
         }
         System.out.println(pila.size());
     }
-}
+    
+    //public static void ejemplo {
+        
+    }
+
