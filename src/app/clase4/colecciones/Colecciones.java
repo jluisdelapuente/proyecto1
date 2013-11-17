@@ -2,6 +2,7 @@ package App.clase4.colecciones;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
@@ -10,7 +11,8 @@ public class Colecciones {
 
     public static void main(String args[]) {
         //Colecciones.ejemploEstudiantes();
-        Colecciones.ejemploLinkedList();
+        //Colecciones.ejemploLinkedList();
+        Colecciones.ejemploMap();
     }
 
     public static void ejemploEstudiantes() {
@@ -44,8 +46,23 @@ public class Colecciones {
         }
         System.out.println(pila.size());
     }
-    
-    //public static void ejemplo {
-        
-    }
 
+    public static void ejemploMap() {
+        Estudiante juan = new Estudiante("Alberto", "Zapata", "Bolognesi 123", 100525);
+        Estudiante luis = new Estudiante("Benjamin", "Ayasta", "Libertad 987", 100526);
+        Estudiante jose = new Estudiante("Carlos", "Lopez", "Union 456", 100527);
+
+        HashMap<String, Estudiante> listado = new HashMap<>();
+        listado.put("123", juan);
+        listado.put("124", luis);
+        listado.put("125", jose);
+
+        listado.get("123").printEstudiante();
+
+        Collections<Estudiante> listadoMap = listado.values();
+        for (Estudiante estudiante : listadoMap) {
+            estudiante.prinEstudiante();
+
+        }
+    }
+}
