@@ -9,6 +9,9 @@ public class Cajero {
             Cuentas cuentaJose = new Cuentas("Jose", 5000);
 
             System.out.println("SALDO:" + cuentaJose.retirarCajero(3000));
+            System.out.println("SALDO:" + cuentaJose.retirarCajero(1000));
+            System.out.println("SALDO:" + cuentaJose.retirarCajero(500));
+            System.out.println("SALDO:" + cuentaJose.retirarCajero(100));
             System.out.println("SALDO:" + cuentaJose.retirarCajero(3000));
         } catch (saldoInsuficienteException e) {
             System.out.println(e.getMessage());
