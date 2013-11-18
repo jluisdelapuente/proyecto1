@@ -8,16 +8,16 @@ public class Excepciones {
 
     public static void main(String[] args) {
 
-        Excepciones.Ejemplo3();
-        //    Excepciones.Ejemplo2();
-        //    Excepciones.Ejemplo3();
-        //        Excepciones.Ejemplo4();
-        //        Excepciones.Ejemplo5();
-        //        Excepciones.Ejemplo6();
-        //        Excepciones.Ejemplo7();
-        //        Excepciones.Ejemplo8();
-        //        Excepciones.Ejemplo9();
-        //        Excepciones.Ejemplo10();
+        Excepciones.Ejemplo1();
+        //   Excepciones.Ejemplo2();
+        //   Excepciones.Ejemplo3();
+        //   Excepciones.Ejemplo4();
+        //   Excepciones.Ejemplo5();
+        //   Excepciones.Ejemplo6();
+        //   Excepciones.Ejemplo7();
+        //   Excepciones.Ejemplo8();
+        //   Excepciones.Ejemplo9();
+        //   Excepciones.Ejemplo10();
 
     }
 
