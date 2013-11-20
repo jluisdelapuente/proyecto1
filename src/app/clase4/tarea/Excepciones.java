@@ -22,6 +22,8 @@ public class Excepciones {
     }
 
     public static void Ejemplo1() {
+        
+        
 
     }
 
