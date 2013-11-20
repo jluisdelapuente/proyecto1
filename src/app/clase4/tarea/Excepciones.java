@@ -8,7 +8,7 @@ public class Excepciones {
 
     public static void main(String[] args) {
 
-        Excepciones.Ejemplo1();
+          Excepciones.Ejemplo1();
         //   Excepciones.Ejemplo2();
         //   Excepciones.Ejemplo3();
         //   Excepciones.Ejemplo4();
