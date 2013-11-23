@@ -9,12 +9,10 @@ public class HilosHerencia extends Thread {
             System.out.println(i);
         }
     }
-    
+    /*
         public static void main(String[] args) {
             HilosHerencia hilo = new HilosHerencia();
             hilo.start();
-            
-        
-    }
-    
+               }
+*/    
 }
