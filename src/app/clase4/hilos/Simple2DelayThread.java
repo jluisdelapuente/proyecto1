@@ -13,14 +13,23 @@ public class Simple2DelayThread {
     public void run() {
 //
         for (int i = 0; i < 5; i++) {
-            System.out.println("Nombre> "+ nombre + );
+            System.out.println("Nombre> "+ nombre + "delay " + delay);
             try {
-                Thread.sleep(1000);
+                Thread.sleep(delay);
             } catch (InterruptedException e) {
             }
-            System.out.println(i);
+    //        System.out.println(nombre + );
         }
 
 
     }
-}
+
+    void start() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void setPriority(int MAX_PRIORITY) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   }

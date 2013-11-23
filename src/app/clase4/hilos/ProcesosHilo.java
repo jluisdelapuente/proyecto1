@@ -8,6 +8,6 @@ package app.clase4.hilos;
  *
  * @author alumno
  */
-class runner {
+class ProcesosHilo {
     
 }
