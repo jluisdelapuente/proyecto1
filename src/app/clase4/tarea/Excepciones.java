@@ -22,10 +22,11 @@ public class Excepciones {
     }
 
     public static void Ejemplo1() {
-        
+         
+    }
         
 
-    }
+    
 
     public static void Ejemplo2() { //como buscar el error!!!
         System.out.println("Introduzca el numero de valores a leer");
