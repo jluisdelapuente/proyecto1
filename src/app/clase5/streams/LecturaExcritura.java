@@ -48,4 +48,11 @@ public class LecturaExcritura {
             e.printStackTrace();
         }
     }
+
+    public static void agregarDatos() {
+        
+        
+        
+    }
+
 }

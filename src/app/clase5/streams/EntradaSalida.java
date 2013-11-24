@@ -7,7 +7,11 @@ public class EntradaSalida {
     public static void main(String[] args) {
         //EntradaSalida.verifyFile();
         //EntradaSalida.listarDirectorio();
-        EntradaSalida.createDirectorio();
+        //EntradaSalida.createDirectorio();
+        EjemploStream ejecutar = new EjemploStream("d://javaTecsup/ejemplo2.txt");
+        ejecutar. actualizar();
+
+        
     }
 
     public static void createDirectorio() {
