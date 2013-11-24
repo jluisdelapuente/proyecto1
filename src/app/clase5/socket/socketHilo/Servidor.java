@@ -20,22 +20,25 @@ public class Servidor {
 // Creamos un servidor de Socket
             ServerSocket server = new ServerSocket(port);
             System.out.println("Servidor iniciado...");
-            Socket cliente = server.accept();
+            while (true) {
+                Socket cliente = server.accept();
 // Crear los canales de lectura y escritura
-            PrintWriter out = new PrintWriter(cliente.getOutputStream(), true);
-            BufferedReader in = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
+                PrintWriter out = new PrintWriter(cliente.getOutputStream(), true);
+                BufferedReader in = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 // COMUNICACION 1
-            out.println("SERVIDOR: HOLA COMPARITO,  ");
+                out.println("SERVIDOR: HOLA COMPARITO,  ");
 // COMUNICACION 2
-            String resp2 = in.readLine();
-            System.out.println(resp2);
-            /* Cerramos el canal */
-            in.close();
-            out.close();
-            cliente.close();
+                String resp2 = in.readLine();
+                System.out.println(resp2);
+                /* Cerramos el canal */
+                in.close();
+                out.close();
+                cliente.close();
+            }
         } catch (Exception e) {
             System.out.println("Error : " + e.getMessage());
             e.printStackTrace();
         }
+
     }
 }
