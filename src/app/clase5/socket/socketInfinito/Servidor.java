@@ -1,4 +1,4 @@
-package app.clase5.socket.socketHilo;
+package app.clase5.socket.socketInfinito;
 
 import app.clase5.socket.socketBasico.*;
 import java.io.BufferedReader;
