@@ -19,8 +19,8 @@ public class Serializacion {
         ObjectOutputStream salida = null;
 
        // Persona persona = new Persona("Alonso", 23);
-        Persona persona = new Persona("José Luis", 42);
-        Persona persona2 = new Persona("Fabiola", 27);
+        Persona persona = new Persona("José Luis,", "su casa,",  43);
+        
 
         try {
             FileOutputStream archivo = new FileOutputStream("c:\\objeto.txt");
