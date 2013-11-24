@@ -1,4 +1,4 @@
-package app.clase5.socket.ejemplo1;
+package app.clase5.socket.socketBasico;
 
 public class TestServisdor {
    

@@ -1,5 +1,6 @@
-package app.clase5.socket.ejemplo1;
+package app.clase5.socket.socketHilo;
 
+import app.clase5.socket.socketBasico.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
