@@ -26,7 +26,9 @@ public class Servidor {
                 PrintWriter out = new PrintWriter(cliente.getOutputStream(), true);
                 BufferedReader in = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 // COMUNICACION 1
-                out.println("SERVIDOR: HOLA COMPARITO,  ");
+                out.println("Cual es la Multiplicacion de 5 * 8  ");
+                
+                
 // COMUNICACION 2
                 String resp2 = in.readLine();
                 System.out.println(resp2);
