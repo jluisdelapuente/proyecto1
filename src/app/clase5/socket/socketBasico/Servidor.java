@@ -24,7 +24,13 @@ public class Servidor {
             PrintWriter out = new PrintWriter(cliente.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 // COMUNICACION 1
-            out.println("SERVIDOR: Operaciones matematicas,  ");
+            out.println("SERVIDOR: Realizar la siguiente Operaciones matematicas,  ");
+            int i = 12;
+            int j = 10;
+            
+            int mult = i * j;
+            System.out.print("El Resultado es :");
+
 // COMUNICACION 2
             String resp2 = in.readLine();
             System.out.println(resp2);

@@ -8,7 +8,7 @@ public class Excepciones {
 
     public static void main(String[] args) {
 
-          Excepciones.Ejemplo9();
+        Excepciones.Ejemplo1();
         //   Excepciones.Ejemplo2();
         //   Excepciones.Ejemplo3();
         //   Excepciones.Ejemplo4();
@@ -22,11 +22,26 @@ public class Excepciones {
     }
 
     public static void Ejemplo1() {
-         
-    }
-        
+        int i = 12;
+        int j = 10;
+        int suma = i + j;
+        int resta = i - j;
+        int mult = i * j;
+        int div = i / j;
+        int modulo = i % j;
 
-    
+        System.out.print("Suma :");
+        System.out.println(suma);
+        System.out.print("Resta :");
+        System.out.println(resta);
+        System.out.print("Multiplicacion :");
+        System.out.println(mult);
+        System.out.print("Division :");
+        System.out.println(div);
+        System.out.print("Modulo :");
+        System.out.println(modulo);
+
+    }
 
     public static void Ejemplo2() { //como buscar el error!!!
         System.out.println("Introduzca el numero de valores a leer");

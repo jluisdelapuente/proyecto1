@@ -25,7 +25,9 @@ public class Cliente {
             String msg = in.readLine();
             System.out.println(msg);
 // COMUNICACION 2
-            out.println("CLIENTE: estas conspirando, cambias los puertos... ya pe' ");
+            out.println("CLIENTE: ");
+            
+            
 // Cerrar canales
             in.close();
             out.close();
