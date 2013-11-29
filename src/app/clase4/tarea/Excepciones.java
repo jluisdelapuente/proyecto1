@@ -8,7 +8,7 @@ public class Excepciones {
 
     public static void main(String[] args) {
 
-          Excepciones.Ejemplo1();
+          Excepciones.Ejemplo9();
         //   Excepciones.Ejemplo2();
         //   Excepciones.Ejemplo3();
         //   Excepciones.Ejemplo4();
@@ -145,7 +145,7 @@ public class Excepciones {
 
     public static void Ejemplo6() {
         String str1 = "12";
-        String str2 = "0";
+        String str2 = "7";
         String respuesta;
         int numerador, denominador, cociente;
         try {
