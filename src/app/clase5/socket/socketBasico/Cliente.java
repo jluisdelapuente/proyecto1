@@ -26,7 +26,8 @@ public class Cliente {
             System.out.println(msg);
 // COMUNICACION 2
             out.println("CLIENTE: tengo hambre ");
-            out.println("CLIENTE: quiero COMIDA!!!!!!!!!! ");
+            out.println(5);
+            out.println(20);
             
             
             

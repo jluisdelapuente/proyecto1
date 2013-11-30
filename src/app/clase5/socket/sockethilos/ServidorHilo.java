@@ -23,6 +23,11 @@ public class ServidorHilo extends Thread {
                     cliente.getInputStream()));
 // COMUNICACION 1
             out.println("SERVIDOR: Bienvenido, ¿Cómo te llamas? ");
+            String operacion = in.readLine();
+            
+
+
+
 // COMUNICACION 2
             String respuestaCliente = in.readLine();
             System.out.println(respuestaCliente);
@@ -41,7 +46,34 @@ public class ServidorHilo extends Thread {
                 e.printStackTrace();
             }
 
+    private void calculadora(PrintWriter out, BufferedReader in) throws IOException {
 
+        String nombre = in.readLine();
+        System.out.println(nombre);
+
+        String operacion = in.readLine();
+        Double operacor1 = Double.parseDouble(in.readLine());
+        Double operacor2 = Double.parseDouble(in.readLine());
+
+        if (operacion.equals("s")) {
+            out.println("SERVIDOR: SUMA");
+            out.println(operacor1 + operacor2);
+            
+        } else if (operacion.equals("r")) {
+            out.println("SERVIDOR: MULTIPLICACION");
+            out.println(operacor1 - operacor2);
+            
+        } else if (operacion.equals("m")) {
+            out.println("SERVIDOR: MULTIPLICACION");
+            out.println(operacor1 * operacor2);
+            
+        } else if (operacion.equals("d")) {
+            out.println("SERVIDOR: DIVICION");
+            out.println(operacor1 / operacor2);
         }
-    }    
+
+
+
+    }
+}
 }
