@@ -1,16 +1,16 @@
-package app.clase5.socket.socketBasico;
+package app.clase5.socket.sockethilos;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class Cliente {
+public class ClienteHilos {
 
     private String host;
     private int port;
 
-    public Cliente(String host, int port) {
+    public ClienteHilos(String host, int port) {
         this.host = host;
         this.port = port;
     }
@@ -26,11 +26,14 @@ public class Cliente {
             System.out.println(msg);
 // COMUNICACION 2
             out.println("CLIENTE: José Luis ");
-            out.println("m");
+            out.println("d");
             
             
-            out.println(50);
-            out.println(10);
+            out.println(15);
+            out.println(0);
+            
+            msg = in.readLine();
+            System.out.println(msg);
             
             msg = in.readLine();
             System.out.println(msg);

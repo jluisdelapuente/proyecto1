@@ -23,8 +23,40 @@ public class ServidorHilo extends Thread {
                     cliente.getInputStream()));
 // COMUNICACION 1
             out.println("SERVIDOR: Bienvenido, ¿Cómo te llamas? ");
+
+
+            String nombre = in.readLine();
+            System.out.println(nombre);
+
             String operacion = in.readLine();
-            
+            Double operador1 = Double.parseDouble(in.readLine());
+            Double operador2 = Double.parseDouble(in.readLine());
+            switch (operacion) {
+                case "s":
+                    out.println("SERVIDOR: SUMA");
+                    out.println(operador1 * operador2);
+                    break;
+                case "r":
+                    out.println("SERVIDOR: RESTA");
+                    out.println(operador1 - operador2);
+                    break;
+                case "m":
+                    out.println("SERVIDOR: MULTIPLICACION");
+                    out.println(operador1 * operador2);
+                    break;
+                case "d":
+                    out.println("SERVIDOR: DIVICION");
+                    if  (operador2 == 0){
+                        out.println("Error Operador por cero");
+                    }else {
+                        out.println(operador1 / operador2);
+                    }
+                    
+                                        
+                    break;
+
+
+            }
 
 
 
@@ -46,34 +78,8 @@ public class ServidorHilo extends Thread {
                 e.printStackTrace();
             }
 
-    private void calculadora(PrintWriter out, BufferedReader in) throws IOException {
+//    private void calculadora(PrintWriter out, BufferedReader in) throws IOException {
 
-        String nombre = in.readLine();
-        System.out.println(nombre);
-
-        String operacion = in.readLine();
-        Double operacor1 = Double.parseDouble(in.readLine());
-        Double operacor2 = Double.parseDouble(in.readLine());
-
-        if (operacion.equals("s")) {
-            out.println("SERVIDOR: SUMA");
-            out.println(operacor1 + operacor2);
-            
-        } else if (operacion.equals("r")) {
-            out.println("SERVIDOR: MULTIPLICACION");
-            out.println(operacor1 - operacor2);
-            
-        } else if (operacion.equals("m")) {
-            out.println("SERVIDOR: MULTIPLICACION");
-            out.println(operacor1 * operacor2);
-            
-        } else if (operacion.equals("d")) {
-            out.println("SERVIDOR: DIVICION");
-            out.println(operacor1 / operacor2);
         }
-
-
-
     }
-}
 }
