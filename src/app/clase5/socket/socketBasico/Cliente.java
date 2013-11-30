@@ -29,6 +29,8 @@ public class Cliente {
             out.println("CLIENTE: quiero COMIDA!!!!!!!!!! ");
             
             
+            
+            
 // Cerrar canales
             in.close();
             out.close();
