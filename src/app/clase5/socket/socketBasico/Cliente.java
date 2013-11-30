@@ -25,7 +25,8 @@ public class Cliente {
             String msg = in.readLine();
             System.out.println(msg);
 // COMUNICACION 2
-            out.println("CLIENTE: ");
+            out.println("CLIENTE: tengo hambre ");
+            out.println("CLIENTE: quiero COMIDA!!!!!!!!!! ");
             
             
 // Cerrar canales
